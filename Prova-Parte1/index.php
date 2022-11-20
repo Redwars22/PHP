@@ -13,6 +13,8 @@
 
         $v[0] = new Video("Avaliação de PHP - 3º Bimestre");
         $p = new Gafanhoto("Gustavo Evil", 12, "M", '12344');
+
+        $view[0] = new Visualizacao($v[0], $p);
     ?>
 </body>
 </html>
